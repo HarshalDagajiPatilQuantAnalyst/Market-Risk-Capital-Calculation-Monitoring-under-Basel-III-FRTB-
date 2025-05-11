@@ -1,0 +1,4 @@
+Used URL to get Historical Price of stock
+Downloadable CSV file:
+https://www.alphavantage.co/query?function=TIME_SERIES_DAILY_ADJUSTED&symbol=IBM&apikey=demo&datatype=csv
+
