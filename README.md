@@ -1,43 +1,25 @@
-# VaR and CVaR Calculator: Excel & Python
+# 📊 FRTB Risk Analytics: VaR, ES, Backtesting & Capital Charges
 
-This project calculates Value at Risk (VaR) and Conditional VaR (CVaR) using three methods:
+This project is a comprehensive Quant Risk Analytics engine built using **Python** and **Excel**, based on the **Basel III FRTB (Fundamental Review of the Trading Book)** framework. It covers:
 
-1. Delta-Normal Approach
-2. Historical Simulation
-3. Monte Carlo Simulation
-
-## 🔍 Features
-
-- Excel-based implementation with formulas and templates.
-- Python scripts using Alpha Vantage API for real-time data.
-- Single and multi-asset portfolio support.
+- Value at Risk (VaR) and Expected Shortfall (ES)
+- Backtesting with Traffic Light Testing
+- Stress Testing and Worst Case Scenarios
+- Basic FRTB Capital Charge calculation (Sensitivity-based)
+- Risk reporting and dashboards
 
 ---
 
-## 📊 Excel Files
+## 📌 Features
 
-Located in the `/excel/` folder:
-- **Delta-Normal**: Calculates VaR & CVaR using mean and covariance matrix.
-- **Historical**: Uses sorted historical returns to estimate percentile losses.
-- **Monte Carlo**: Simulates returns using random normal distributions.
-
----
-
-## 🐍 Python Scripts
-
-Located in the `/python/` folder:
-
-- `data_fetch_alpha_vantage.py`: Download historical stock data using Alpha Vantage API.
-- `var_cvar_delta_normal.py`: Calculates Delta-Normal VaR and CVaR.
-- `var_cvar_historical.py`: Historical approach.
-- `var_cvar_monte_carlo.py`: Monte Carlo simulation.
+- ✅ Historical VaR and ES Calculation (95% and 99%)
+- ✅ Backtesting of VaR models with Traffic Light Test
+- ✅ Scenario and Stress Testing (COVID-19, 2008 GFC)
+- ✅ WCS Analysis and Summary Reports
+- ✅ Excel-Python hybrid models for transparency
+- ✅ FRTB simplified Standardized Capital Charge
 
 ---
 
-## 📦 Requirements
-
-Install via:
-
-```bash
-pip install -r requirements.txt
+## 🧪 Project Structure
 
