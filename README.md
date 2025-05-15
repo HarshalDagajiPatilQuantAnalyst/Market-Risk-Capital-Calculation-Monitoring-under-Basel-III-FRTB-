@@ -21,5 +21,5 @@ This project is a comprehensive Quant Risk Analytics engine built using **Python
 
 ---
 
-## 🧪 Project Structure
+## Project Structure
 
