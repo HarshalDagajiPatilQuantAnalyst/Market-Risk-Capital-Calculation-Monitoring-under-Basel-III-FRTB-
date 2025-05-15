@@ -1,4 +1,4 @@
-# 📊 FRTB Risk Analytics: VaR, ES, Backtesting & Capital Charges
+# FRTB Risk Analytics: VaR, ES, Backtesting & Capital Charges
 
 This project is a comprehensive Quant Risk Analytics engine built using **Python** and **Excel**, based on the **Basel III FRTB (Fundamental Review of the Trading Book)** framework. It covers:
 
@@ -10,7 +10,7 @@ This project is a comprehensive Quant Risk Analytics engine built using **Python
 
 ---
 
-## 📌 Features
+## Features
 
 - ✅ Historical VaR and ES Calculation (95% and 99%)
 - ✅ Backtesting of VaR models with Traffic Light Test
